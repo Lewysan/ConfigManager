@@ -18,8 +18,6 @@ public class ConfigManager {
     public static ConfigManager getInstance() {
         return instance;
     }
-
-    public Plugin p;
     public FileConfiguration config;
     public File cfile;
 
