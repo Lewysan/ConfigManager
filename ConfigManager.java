@@ -1,4 +1,4 @@
-package me.lowynzx.lowcx.core;
+package me.lowynzx.lowcx.core.test;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
