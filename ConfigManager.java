@@ -10,9 +10,7 @@ import java.io.IOException;
 
 public class ConfigManager {
 
-    private ConfigManager() {
-    }
-
+    private ConfigManager() { }
     static ConfigManager instance = new ConfigManager();
 
     public static ConfigManager getInstance() {
