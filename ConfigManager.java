@@ -8,14 +8,14 @@ import org.bukkit.plugin.Plugin;
 import java.io.File;
 import java.io.IOException;
 
-public class Examples {
+public class ConfigManager {
 
-    private Examples() {
+    private ConfigManager() {
     }
 
-    static Examples instance = new Examples();
+    static ConfigManager instance = new ConfigManager();
 
-    public static Examples getInstance() {
+    public static ConfigManager getInstance() {
         return instance;
     }
 
