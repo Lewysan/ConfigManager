@@ -27,7 +27,7 @@ public class ConfigManager {
         cfile = new File(core.getDataFolder(), "config.yml");
         config = core.getConfig();
         config.options().copyDefaults(true);
-        core.saveConfig();
+        this.saveConfig();
     }
     public FileConfiguration getConfig() {
         return config;
