@@ -19,7 +19,7 @@ public class ConfigManager {
     public FileConfiguration config;
     public File cfile;
 
-    public void setupConfiguration(Plugin core) {
+    public void setupConfiguration(YourCore core) {
         if (!core.getDataFolder().exists()){
             core.getDataFolder().mkdir();
             core.getServer().broadcastMessage(ChatColor.GREEN+"La carpeta de configuracion ha sido creada.");
